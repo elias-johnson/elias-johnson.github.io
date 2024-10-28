@@ -12,5 +12,5 @@ function decimalToBinary() {
     const binary = (parseInt(decimal, 10) >>> 0).toString(2);
 
     // Display the result in the paragraph with id "result"
-    document.getElementById('decimalToBinaryResult').innerText = "Binary: ${binary}";		
+    document.getElementById('decimalToBinaryResult').innerText = `${binary}`;		
 }

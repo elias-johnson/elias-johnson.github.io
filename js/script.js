@@ -1,4 +1,4 @@
-function decimalToBinary {
+function decimalToBinary() {
 	// Retrieve the decimal input value
 	const decimal = document.getElementById('decimalInput').value;
 	

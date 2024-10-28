@@ -7,7 +7,7 @@ function decimalToBinary() {
 		document.getElementById('decimalToBinaryResult').innerText = "Invalid number.";
 	} else {
 		// Convert the decimal to binary
-		const binary = (parseInt(decimal, 10) >>> 0).toString(2);
+		const binary = (parseInt(decimal, 10) >>> 0).toString(2); // TODO don't actually keep this
 		
 		// Convert to 2s-complement
 		

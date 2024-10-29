@@ -3,8 +3,8 @@ function decimalToBinary() {
 	const decimal = document.getElementById('decimalInput').value;
 	let binary = "";
 	
-	// Check if the input is a valid number
-	if (decimal === "" || isNaN(decimal)) {
+	// Check if the input is a valid whole number
+	if (decimal === "" || isNaN(decimal) || decimal % 1 != 0) {
 		document.getElementById('decimalToBinaryResult').innerText = "Invalid number.";
 	} else {
 		// Convert the decimal to a positive binary

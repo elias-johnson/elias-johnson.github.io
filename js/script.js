@@ -1,6 +1,6 @@
 function decimalToBinary() {
-	// Retrieve the decimal input value
-	const decimal = document.getElementById('decimalInput').value;
+	// Retrieve the decimal input value from the page
+	let decimal = document.getElementById('decimalInput').value;
 	let binary = "";
 	
 	// Check if the input is a valid integer
@@ -44,4 +44,22 @@ function decimalToBinary() {
 		binary = binary.replace(/(.{4})/g, '$1 ').trim();
 		document.getElementById('decimalToBinaryResult').innerText = `${binary}`;
 	}	
+}
+
+function binaryToDecimal() {
+	// Retrieve the binary input value from the page
+	let binary = document.getElementById('binaryInput').value;
+	let decimal = 0;
+	
+	// Check if the input is a valid binary number
+	if (!/^[01]+$/.test(binary)) {
+		document.getElementById('binaryToDecimalResult').innerText = "Invalid binary.";
+	} else {
+		// Convert to base 10
+		decimal = parseInt(binary, 2).toString(10);	
+	
+		// Display the result
+		binary = binary.replace(/(.{4})/g, '$1 ').trim();
+		document.getElementById('decimalToBinaryResult').innerText = `${binary}`;	
+	}			
 }

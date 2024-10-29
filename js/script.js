@@ -33,9 +33,10 @@ function decimalToBinary() {
 					index = -1;
 				}	
 			}	
-		}	
+		}
 
 		// Display the result
+		binary = binary.replace(/(.{4})/g, '$1 ').trim();
 		document.getElementById('decimalToBinaryResult').innerText = `${binary}`;
 	}	
 }

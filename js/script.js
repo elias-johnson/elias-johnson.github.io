@@ -68,7 +68,7 @@ function binaryToDecimal() {
 			// Iterate through the remaining bits to determine total value
 			for (let i = 1; i < binary.length; i++) {
 				if (binary[i] === '1') {
-					negativeDecimal += 2 ** (i - 1);
+					negativeDecimal += 2 ** ((binary.length - i) - 1);;
 				}
 			}
 			decimal = negativeDecimal

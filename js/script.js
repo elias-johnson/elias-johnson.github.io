@@ -21,7 +21,8 @@ function decimalToBinary() {
 				binary = '0' + binary;
 			}
 		} else {
-			binary = parseInt(decimal, 10).toString(2);
+			const positiveDecimal = Math.abs(decimal);
+			binary = (1 << 8) + positiveDecimal;
 			
 			// Remove excess leading bits
 			let index = 0

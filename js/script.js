@@ -7,21 +7,22 @@ function decimalToBinary() {
 	if (decimal === "" || isNaN(decimal)) {
 		document.getElementById('decimalToBinaryResult').innerText = "Invalid number.";
 	} else {
-		// Convert the decimal to binary
+		// Convert the decimal to a positive binary
+		decimal = Math.abs(decimal);
 		binary = parseInt(decimal, 10).toString(2);
 		
-		// Add a 0 if the most significant bit is a 1
-		if (binary[0] === '1') {
-			binary = '0' + binary;
-		}	
+		// Check if decimal is positive
+		if (decimal >= 0) {
+			// Add a 0 if the most significant bit is a 1
+			if (binary[0] === '1') {
+				binary = '0' + binary;
+			}	
 		
-		// Sign-extend with 0 if length of binary is not divisible by 4
-		while (binary.length % 4 != 0) {
-			binary = '0' + binary;
-		}
-		
-		// Check if decimal is negative
-		if (decimal < 0) {
+			// Sign-extend with 0 if length of binary is not divisible by 4
+			while (binary.length % 4 != 0) {
+				binary = '0' + binary;
+			}			
+		} else {
 			// Invert the positive binary
 			for (let i = 0; i < binary.length; i++) {
 				if (binary[i] === '0') {
@@ -51,7 +52,7 @@ function decimalToBinary() {
 			while (binary.length % 4 != 0) {
 				binary = '1' + binary;
 			}				
-		}
+		}	
 
 		// Display the result
 		binary = binary.replace(/(.{4})/g, '$1 ').trim();

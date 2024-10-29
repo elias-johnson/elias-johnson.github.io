@@ -57,9 +57,24 @@ function binaryToDecimal() {
 	} else {
 		// Convert to base 10
 		decimal = parseInt(binary, 2).toString(10);	
+		
+		// Check if binary is negative
+		let negativeDecimal = 0;
+		if (decimal[0] === '1') {
+			// Calculate the value of the most significant bit
+			let msb = 2 ** (binary.length - 1);
+			negativeDecimal -= msb;
+			
+			// Iterate through the remaining bits to determine total value
+			for (let i = 1; i < binary.length; i++) {
+				if (binary[i] === '1') {
+					negativeDecimal += 2 ** (i - 1);
+				}
+			}
+			decimal = negativeDecimal
+		}	
 	
 		// Display the result
-		binary = binary.replace(/(.{4})/g, '$1 ').trim();
 		document.getElementById('binaryToDecimalResult').innerText = `${decimal}`;	
 	}			
 }

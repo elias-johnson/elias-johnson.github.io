@@ -37,12 +37,7 @@ function decimalToBinary() {
 			// Add 1 to the decimal
 			binary = parseInt(binary, 2).toString(10);
 			binary++;
-			binary = parseInt(binary, 10).toString(2);
-			
-			// Sign-extend with 1 if length of binary is not divisible by 4
-			while (binary.length % 4 != 0) {
-				binary = '1' + binary;
-			}				
+			binary = parseInt(binary, 10).toString(2);		
 		}	
 
 		// Display the result

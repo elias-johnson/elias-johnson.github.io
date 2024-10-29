@@ -3,7 +3,7 @@ function decimalToBinary() {
 	const decimal = document.getElementById('decimalInput').value;
 	let binary = "";
 	
-	// Check if the input is a valid whole number
+	// Check if the input is a valid integer
 	if (decimal === "" || isNaN(decimal) || decimal % 1 != 0) {
 		document.getElementById('decimalToBinaryResult').innerText = "Invalid number.";
 	} else {

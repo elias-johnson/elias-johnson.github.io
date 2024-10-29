@@ -17,7 +17,7 @@ function decimalToBinary() {
 			}	
 			
 			// Sign-extend with 0 if length of binary is not divisible by 4
-			while(binary.length % 4 != 0) {
+			while (binary.length % 4 != 0) {
 				binary = '0' + binary;
 			}
 		} else {

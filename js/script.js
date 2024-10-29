@@ -60,6 +60,6 @@ function binaryToDecimal() {
 	
 		// Display the result
 		binary = binary.replace(/(.{4})/g, '$1 ').trim();
-		document.getElementById('binaryToDecimalResult').innerText = `${binary}`;	
+		document.getElementById('binaryToDecimalResult').innerText = `${decimal}`;	
 	}			
 }

@@ -32,7 +32,12 @@ function decimalToBinary() {
 				} else {
 					index = -1;
 				}	
-			}	
+			}
+			
+			// Sign-extend with 1 if length of binary is not divisible by 4
+			while (binary.length % 4 != 0) {
+				binary = '1' + binary;
+			}			
 		}
 
 		// Display the result

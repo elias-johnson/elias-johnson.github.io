@@ -60,7 +60,7 @@ function binaryToDecimal() {
 		
 		// Check if binary is negative
 		let negativeDecimal = 0;
-		if (decimal[0] === '1') {
+		if (binary[0] === '1') {
 			// Calculate the value of the most significant bit
 			let msb = 2 ** (binary.length - 1);
 			negativeDecimal -= msb;

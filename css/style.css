@@ -23,7 +23,7 @@ h1 {
 
 .semi-transparent-box {
     width: 40%; /* Adjust as needed */
-    height: 600px; /* Adjust as needed */
+    height: 570px; /* Adjust as needed */
     background-color: rgba(0, 0, 0, 0.75); /* Black with 50% transparency */
     border-radius: 10px; /* Optional: rounded corners */
     margin: 20px auto; /* Center the box with margin */

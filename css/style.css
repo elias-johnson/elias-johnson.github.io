@@ -3,7 +3,7 @@
 }	
 
 html, body {
-	height: 100%;
+	height: 90%;
 	margin: 0;
 	padding: 0;
 }	
@@ -27,7 +27,6 @@ h1 {
     background-color: rgba(0, 0, 0, 0.75); /* Black with 50% transparency */
     border-radius: 10px; /* Optional: rounded corners */
     margin: 20px auto; /* Center the box with margin */
-    display: flex; /* Optional: to center content */
     align-items: center; /* Optional: center content vertically */
     justify-content: center; /* Optional: center content horizontally */
     color: white; /* Text color inside the box */

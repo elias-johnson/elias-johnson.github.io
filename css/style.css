@@ -1,4 +1,4 @@
-body {
+html {
   background-image: url('/images/forest2.jpg'); /* Update the path to match your image's location */
   background-size: cover; /* This makes the background cover the entire screen */
   background-repeat: no-repeat; /* Prevents the image from repeating */

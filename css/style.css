@@ -1,6 +1,14 @@
-body {
+/* body {
   background-color: #FFFDD0;
+} */
+
+body {
+  background-image: url('/images/1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 
 <ul style="list-style-type: circle;">
     <li>Item with circle bullet</li>

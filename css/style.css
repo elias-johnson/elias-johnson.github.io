@@ -12,7 +12,6 @@ body {
 	color: white;
 }
 
-
-<ul style="list-style-type: circle;">
-    <li>Item with circle bullet</li>
-</ul>
+h1 {
+	font-size: 55px;
+}	

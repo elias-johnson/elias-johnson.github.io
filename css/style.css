@@ -13,7 +13,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	font-family: "Varela Round", sans-serif;
+	font-family: "Comic Neue", cursive;
 	color: white;
 }
 
@@ -22,7 +22,7 @@ h1 {
 }
 
 .semi-transparent-box {
-    width: 40%;
+    width: 30%;
     height: 570px;
     background-color: rgba(255, 255, 255, 0.90);
     border-radius: 10px; /* Rounded corners */

@@ -14,4 +14,17 @@ body {
 
 h1 {
 	font-size: 55px;
-}	
+}
+
+.semi-transparent-box {
+    width: 80%; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+    border-radius: 10px; /* Optional: rounded corners */
+    margin: 20px auto; /* Center the box with margin */
+    display: flex; /* Optional: to center content */
+    align-items: center; /* Optional: center content vertically */
+    justify-content: center; /* Optional: center content horizontally */
+    color: white; /* Text color inside the box */
+    text-align: center; /* Center text */
+}

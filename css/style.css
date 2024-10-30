@@ -24,11 +24,11 @@ h1 {
 .semi-transparent-box {
     width: 40%;
     height: 570px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.90);
     border-radius: 10px; /* Rounded corners */
     margin: 20px auto; /* Center the box with margin */
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
     text-align: center;
 }

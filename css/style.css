@@ -17,10 +17,6 @@ body {
 	color: white;
 }
 
-.header {
-	font-size: 55px;
-}
-
 .main-box {
     width: 35%;
     height: 580px;
@@ -29,7 +25,14 @@ body {
     margin: 20px auto; /* Center the box with margin */
     align-items: center;
     justify-content: center;
-    color: black;
     text-align: center;
 	padding-top: 10px;
 }
+
+.header {
+	font-size: 55px;
+}
+
+.body {
+	color: black;
+}	

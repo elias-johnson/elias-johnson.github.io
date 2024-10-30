@@ -2,12 +2,17 @@
 	text-align: center;
 }	
 
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}	
+
 body {
 	background-image: url('/images/Background.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 95vh;
 	font-family: 'Playfair Display', serif;
 	color: white;
 }
@@ -17,7 +22,7 @@ h1 {
 }
 
 .semi-transparent-box {
-    width: 80%; /* Adjust as needed */
+    width: 40%; /* Adjust as needed */
     height: 400px; /* Adjust as needed */
     background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
     border-radius: 10px; /* Optional: rounded corners */

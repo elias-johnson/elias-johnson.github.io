@@ -13,7 +13,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	font-family: 'Playfair Display', serif;
+	font-family: "Varela Round", sans-serif;
 	color: white;
 }
 
@@ -22,13 +22,13 @@ h1 {
 }
 
 .semi-transparent-box {
-    width: 40%; /* Adjust as needed */
-    height: 570px; /* Adjust as needed */
-    background-color: rgba(0, 0, 0, 0.75); /* Black with 50% transparency */
-    border-radius: 10px; /* Optional: rounded corners */
+    width: 40%;
+    height: 570px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px; /* Rounded corners */
     margin: 20px auto; /* Center the box with margin */
-    align-items: center; /* Optional: center content vertically */
-    justify-content: center; /* Optional: center content horizontally */
-    color: white; /* Text color inside the box */
-    text-align: center; /* Center text */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
 }

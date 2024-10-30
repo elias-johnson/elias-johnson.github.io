@@ -1,3 +1,10 @@
+body {
+  background-image: url('images/forest2.jpg'); /* Update the path to match your image's location */
+  background-size: cover; /* This makes the background cover the entire screen */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the image fixed when scrolling */
+
+}
 <ul style="list-style-type: circle;">
     <li>Item with circle bullet</li>
 </ul>

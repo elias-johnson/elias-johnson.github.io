@@ -39,15 +39,15 @@ body {
 }
 
 .decimal-to-binary {
-	
+	margin-top: 20px;
 }
 
 .binary-to-decimal {
-	
+	margin-top: 50px;
 }
 
 .home {
-	margin-top:250px
+	margin-top: 205px;
 }	
 
 #binaryToDecimalResult {

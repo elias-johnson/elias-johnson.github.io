@@ -47,5 +47,17 @@ body {
 }
 
 .home {
-	
+	margin-top:300px
 }	
+
+#binaryToDecimalResult {
+    min-height: 20px;
+    opacity: 0; /* Start invisible */
+    transition: opacity 0.3s; /* Smooth transition */
+}
+
+#decimalToBinaryResult {
+    min-height: 20px;
+    opacity: 0; /* Start invisible */
+    transition: opacity 0.3s; /* Smooth transition */
+}

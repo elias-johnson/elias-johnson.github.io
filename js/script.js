@@ -76,5 +76,7 @@ function binaryToDecimal() {
 	
 		// Display the result
 		document.getElementById('binaryToDecimalResult').innerText = `${decimal}`;	
+		const resultElement = document.getElementById("binaryToDecimalResult");
+		resultElement.style.opacity = "1";
 	}			
 }

@@ -43,6 +43,8 @@ function decimalToBinary() {
 		// Display the result
 		binary = binary.replace(/(.{4})/g, '$1 ').trim();
 		document.getElementById('decimalToBinaryResult').innerText = `${binary}`;
+		const binaryElement = document.getElementById("decimalToBinaryResult");
+		binaryElement.style.opacity = "1";		
 	}	
 }
 
@@ -76,7 +78,7 @@ function binaryToDecimal() {
 	
 		// Display the result
 		document.getElementById('binaryToDecimalResult').innerText = `${decimal}`;	
-		const resultElement = document.getElementById("binaryToDecimalResult");
-		resultElement.style.opacity = "1";
+		const decimalElement = document.getElementById("binaryToDecimalResult");
+		decimalElement.style.opacity = "1";
 	}			
 }

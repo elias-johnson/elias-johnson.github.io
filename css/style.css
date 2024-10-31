@@ -21,8 +21,8 @@ body {
     width: 35%;
     height: 580px;
     background-color: rgba(255, 255, 255, 0.90);
-    border-radius: 10px; /* Rounded corners */
-    margin: 20px auto; /* Center the box with margin */
+    border-radius: 10px;
+    margin: 20px auto;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -52,12 +52,10 @@ body {
 
 #binaryToDecimalResult {
     min-height: 20px;
-    opacity: 0; /* Start invisible */
-    transition: opacity 0.3s; /* Smooth transition */
+    opacity: 0;
 }
 
 #decimalToBinaryResult {
     min-height: 20px;
-    opacity: 0; /* Start invisible */
-    transition: opacity 0.3s; /* Smooth transition */
+    opacity: 0;
 }

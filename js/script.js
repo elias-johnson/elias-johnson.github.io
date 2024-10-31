@@ -6,6 +6,8 @@ function decimalToBinary() {
 	// Check if the input is a valid integer
 	if (decimal === "" || isNaN(decimal) || decimal % 1 != 0) {
 		document.getElementById('decimalToBinaryResult').innerText = "Invalid number.";
+		const binaryElement = document.getElementById("decimalToBinaryResult");
+		binaryElement.style.opacity = "1";	
 	} else {
 		// Convert the decimal to a positive binary
 		positiveDecimal = Math.abs(decimal);
@@ -56,6 +58,8 @@ function binaryToDecimal() {
 	// Check if the input is a valid binary number
 	if (!/^[01]+$/.test(binary)) {
 		document.getElementById('binaryToDecimalResult').innerText = "Invalid binary.";
+		const decimalElement = document.getElementById("binaryToDecimalResult");
+		decimalElement.style.opacity = "1";
 	} else {
 		// Convert to base 10
 		decimal = parseInt(binary, 2).toString(10);	

@@ -37,13 +37,14 @@ body {
 }
 
 .footer-bar {
-	width: 100%;
+	width: 50%;
 	height: 20px;
 	display: flex;
 	align-items: center;	
 	position: absolute;
 	bottom: 0;
-	font-size: 10px;	
+	left: 0.5%;
+	font-size: 10px;		
 }	
 
 .header {

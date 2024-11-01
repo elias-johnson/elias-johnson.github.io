@@ -24,7 +24,7 @@ body {
 
 .main-box {
     width: 35%;
-    height: 580px;
+    height: 400px;
     background-color: rgba(0, 0, 0, 0.80);
     border-radius: 10px;
     margin: 20px auto;
@@ -35,7 +35,12 @@ body {
 }
 
 .footer-bar {
-	
+	width: 100%;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	background-color: rgba(0, 0, 0, 0.80);
 }	
 
 .header {

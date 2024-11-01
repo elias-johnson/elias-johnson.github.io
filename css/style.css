@@ -9,10 +9,7 @@ html, body {
 }	
 
 body {
-	background-image: url('/images/Background.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-color: rgb(173, 216, 230)
 	font-family: "Comic Neue", cursive;
 	color: white;
 }

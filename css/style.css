@@ -6,7 +6,7 @@
 body {
 	margin: 0px;
     padding: 0px;
-    background-image: url('/images/cannon.jpg');
+    background-image: url('/images/Background.jpg');
     background-size: cover;
     background-attachment: fixed;
 	background-position: center bottom;	

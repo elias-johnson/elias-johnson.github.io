@@ -14,11 +14,12 @@ body {
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
+	margin: 0 10px;	
 }
 
 a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .header-bar {

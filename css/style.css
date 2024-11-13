@@ -22,7 +22,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: lightblue;
+  color: lightpink;
 }
 
 .header-bar {
@@ -32,7 +32,7 @@ a:hover {
   top: 0;	
   justify-content: center;
   align-items: center;	
-  background-color: rgba(0, 0, 0, 0.60);
+  background-color: rgba(0, 0, 0, 0.40);
 }	
 
 .main-box {

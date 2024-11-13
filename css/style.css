@@ -90,9 +90,11 @@ button:hover {
 }
 
 .button-container {
-  margin: 175px auto;
+  margin: 190px auto;
   display: flex;
   justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 300px;
 }	
 
 .binary-to-decimal {

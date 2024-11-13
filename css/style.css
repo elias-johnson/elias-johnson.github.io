@@ -22,7 +22,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: rgb(255, 208, 211);
-}
+}	
 
 .header-bar {
   font-weight: 350;
@@ -73,6 +73,21 @@ a:hover {
 .decimal-to-binary {
   margin-top: 40px;
 }
+
+.menu-buttons {
+  background-color: white; /* White background */
+  color: black; /* Text color */
+  border: 2px solid black; /* Optional border */
+  border-radius: 50px; /* Rounds the button into an oval */
+  padding: 15px 30px; /* Adjusts size of the button */
+  font-size: 18px; /* Adjusts font size */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: transform 0.2s; /* Smooth hover effect */
+}	
+
+.menu-buttons:hover {
+  transform: scale(1.05);
+}	
 
 .binary-to-decimal {
   margin-top: 50px;

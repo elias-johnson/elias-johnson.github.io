@@ -1,17 +1,18 @@
 * {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }	
 
 body {
+  font-weight: 200;
   margin: 0px;
   padding: 0px;
   background-image: url('/images/Background.png');
   background-size: cover;
   background-attachment: fixed;
-  background-position: center bottom;	
+  background-position: center bottom;
+  color: rgb(82,89,134);
 }
 
 a {
@@ -22,10 +23,11 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: lightpink;
+  color: rgb(255, 208, 211);
 }
 
 .header-bar {
+  font-weight: 350;
   width: 100%;
   height: 35px;
   display: flex;
@@ -60,7 +62,7 @@ a:hover {
 }	
 
 .main-title {
-  font-size: 55px;
+  font-size: 70px;
 }
 
 .decimal-to-binary {

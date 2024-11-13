@@ -5,7 +5,6 @@
 }	
 
 body {
-  font-weight: 200;
   margin: 0px;
   padding: 0px;
   background-image: url('/images/Background.png');
@@ -61,11 +60,14 @@ a:hover {
 }	
 
 .title-name {
+  font-weight: 200;
   font-size: 70px;
 }
 
 .title-desc {
-  font-size: 15px	
+  font-weight: 300;
+  font-size: 15px;	
+  margin: 15px;
 }	
 
 .decimal-to-binary {

@@ -54,7 +54,7 @@ button:hover {
 .main-box {
   width: 90%;
   height: 550px;
-  margin: 20px auto;
+  margin: 40px auto;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -90,7 +90,7 @@ button:hover {
 }
 
 .menu-buttons {
-  
+  margin: 100px auto;
 }	
 
 .binary-to-decimal {

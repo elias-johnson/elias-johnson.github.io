@@ -89,8 +89,10 @@ button:hover {
   margin-top: 40px;
 }
 
-.menu-buttons {
+.button-container {
   margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
 }	
 
 .binary-to-decimal {

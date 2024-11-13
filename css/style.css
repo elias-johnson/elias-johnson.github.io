@@ -29,7 +29,7 @@ button {
   color: black;
   border: 2px solid white;
   border-radius: 50px;
-  padding: 15px 30px;
+  padding: 25px 50px;
   font-size: 18px;
   cursor: pointer;
   transition: transform 0.2s;
@@ -90,7 +90,7 @@ button:hover {
 }
 
 .button-container {
-  margin: 100px auto;
+  margin: 175px auto;
   display: flex;
   justify-content: space-between;
 }	

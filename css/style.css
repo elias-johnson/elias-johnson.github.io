@@ -45,6 +45,7 @@ a:hover {
   justify-content: center;
   text-align: center;
   padding-top: 10px;
+  color: rgb(82,89,134);
 }
 
 .footer-bar {
@@ -59,10 +60,13 @@ a:hover {
   color: rgb(225, 225, 225);
 }	
 
-.main-title {
+.title-name {
   font-size: 70px;
-  color: rgb(82,89,134);
 }
+
+.title-desc {
+  font-size: 30px	
+}	
 
 .decimal-to-binary {
   margin-top: 40px;

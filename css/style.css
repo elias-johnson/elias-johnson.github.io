@@ -51,9 +51,9 @@ button:hover {
   color: rgb(255, 255, 230);
 }	
 
-.main-box {
+.main-container {
   width: 90%;
-  height: 550px;
+  height: 500px;
   margin: 40px auto;
   align-items: center;
   justify-content: center;

@@ -12,7 +12,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center bottom;
-  color: rgb(82,89,134);
 }
 
 a {
@@ -63,7 +62,12 @@ a:hover {
 
 .main-title {
   font-size: 70px;
+  color: rgb(82,89,134);
 }
+
+.main-body {
+  color: rgb(255, 255, 255);	
+}	
 
 .decimal-to-binary {
   margin-top: 40px;

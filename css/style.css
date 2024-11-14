@@ -80,17 +80,17 @@ button:hover {
   align-items: center;
   justify-content: center;
   padding-left: 150px;
-  background-color: pink;
 }
 
 .text-container-body {
-  width: 100%;
-  height: 200px;
-  padding-top: 50px;
+  width: 98%;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   align-items: center;
   justify-content: center;
-  background-color: lightblue;
-}	
+}
 
 .footer-bar {
   margin: 0 -10px;

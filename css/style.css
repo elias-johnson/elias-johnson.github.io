@@ -85,7 +85,7 @@ button:hover {
 .text-container-body {
   width: 98%;
   height: 100px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
@@ -132,7 +132,7 @@ button:hover {
 
 .about-image {
   position: absolute;
-  top: 120px;
+  top: 130px;
   left: 150px;
   width: 300px;
   z-index: 1;

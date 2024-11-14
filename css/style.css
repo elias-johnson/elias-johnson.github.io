@@ -113,10 +113,11 @@ button:hover {
 
 .about-image {
   position: absolute;
-  top: 50px;
-  left: 50px;
-  width: 200px;
+  top: 100px;
+  left: 150px;
+  width: 300px;
   z-index: 1;
+  border-radius: 15px;
 }	
 
 .binary-to-decimal {

@@ -111,13 +111,17 @@ button:hover {
   padding-right: 300px;
 }	
 
+.about-image {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  z-index: 1;
+}	
+
 .binary-to-decimal {
   margin-top: 50px;
 }
-
-.home {
-  margin-top: 205px;
-}	
 
 #binaryToDecimalResult, #decimalToBinaryResult {
   min-height: 20px;

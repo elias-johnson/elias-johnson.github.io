@@ -112,6 +112,7 @@ button:hover {
 }
 
 .title-desc {
+  text-align: center;
   font-weight: 300;
   font-size: 15px;	
   margin: 15px;

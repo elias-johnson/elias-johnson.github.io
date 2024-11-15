@@ -154,7 +154,14 @@ button:hover {
   width: 40px;
 }	
 
-.resume-icon:hover, .linkedin-icon:hover {
+.github-icon {
+  position: absolute;
+  top: 40px;
+  right: 58px;
+  width: 40px;
+}	
+
+.resume-icon:hover, .linkedin-icon:hover, .github-icon:hover {
   transform: scale(1.05);
 }	
 

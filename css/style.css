@@ -92,7 +92,7 @@ button:hover {
   justify-content: center;
 }
 
-.footer-bar {
+.credits {
   margin: 0 -10px;
   width: 10%;
   height: 20px;
@@ -103,7 +103,7 @@ button:hover {
   left: 0.5%;
   font-size: 8px;
   color: rgb(205, 205, 205);
-}	
+}		
 
 .title-name {
   text-align: center;
@@ -117,10 +117,6 @@ button:hover {
   font-size: 15px;	
   margin: 15px;
 }	
-
-.decimal-to-binary {
-  margin-top: 40px;
-}
 
 .button-container {
   margin: 190px auto;
@@ -139,6 +135,11 @@ button:hover {
   border-radius: 15px;
 }	
 
+.email {
+  text-decoration: underline;
+  color: rgb(255, 148, 181);	
+}	
+
 .resume-icon {
   position: absolute;
   top: 65px;
@@ -146,14 +147,20 @@ button:hover {
   width: 100px;
 }		
 
-.email {
-  text-decoration: underline;
-  color: rgb(255, 148, 181);	
+.linkedin-icon {
+  position: absolute;
+  top: 165px;
+  right: 35px;
+  width: 100px;
 }	
 
-.resume-icon:hover {
+.resume-icon:hover, .linkedin-icon:hover {
   transform: scale(1.05);
 }	
+
+.decimal-to-binary {
+  margin-top: 40px;
+}
 
 .binary-to-decimal {
   margin-top: 50px;

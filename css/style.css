@@ -92,6 +92,19 @@ button:hover {
   justify-content: center;
 }
 
+.project-container {
+  width: 60%;
+  height: 200px;
+  margin: 35px auto;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 2;
+  color: rgb(82,89,134);	
+}	
+
 .credits {
   margin: 0 -10px;
   width: 10%;

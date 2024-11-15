@@ -156,10 +156,10 @@ button:hover {
 
 .resume-icon {
   position: absolute;
-  top: 40px;
+  top: 42px;
   right: 92px;
-  width: 40px;
-}	
+  width: 36px;
+}		
 
 .linkedin-icon:hover, .github-icon:hover, .resume-icon:hover {
   transform: scale(1.05);

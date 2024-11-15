@@ -139,14 +139,7 @@ button:hover {
   text-decoration: underline;
   color: rgb(255, 148, 181);	
 }	
-
-.resume-icon {
-  position: absolute;
-  top: 65px;
-  right: 235px;
-  width: 100px;
-}		
-
+	
 .linkedin-icon {
   position: absolute;
   top: 40px;
@@ -157,11 +150,18 @@ button:hover {
 .github-icon {
   position: absolute;
   top: 40px;
-  right: 58px;
+  right: 50px;
   width: 40px;
 }	
 
-.resume-icon:hover, .linkedin-icon:hover, .github-icon:hover {
+.resume-icon {
+  position: absolute;
+  top: 40px;
+  right: 92px;
+  width: 40px;
+}	
+
+.linkedin-icon:hover, .github-icon:hover, .resume-icon:hover {
   transform: scale(1.05);
 }	
 

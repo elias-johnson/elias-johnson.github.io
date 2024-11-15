@@ -147,9 +147,8 @@ button:hover {
 }		
 
 .email {
-  display: inline-block;
   text-decoration: underline;
-  color: rgb(255, 208, 211);	
+  color: rgb(255, 148, 181);	
 }	
 
 .resume-icon:hover {

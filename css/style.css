@@ -143,15 +143,15 @@ button:hover {
 .resume-icon {
   position: absolute;
   top: 65px;
-  right: 35px;
+  right: 235px;
   width: 100px;
 }		
 
 .linkedin-icon {
   position: absolute;
-  top: 165px;
-  right: 35px;
-  width: 100px;
+  top: 40px;
+  right: 8px;
+  width: 40px;
 }	
 
 .resume-icon:hover, .linkedin-icon:hover {

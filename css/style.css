@@ -146,6 +146,11 @@ button:hover {
   width: 100px;
 }		
 
+.email {
+  text-decoration: underline;
+  color: rgb(255, 208, 211);	
+}	
+
 .resume-icon:hover {
   transform: scale(1.05);
 }	

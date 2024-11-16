@@ -19,18 +19,30 @@ body {
   color: rgb(255, 255, 230)  
 }
 
-.header-link:hover, .credit-link:hover {
+.footer-link {
+  color: rgb(205, 205, 205); 
+}	
+
+.header-link:hover, .footer-link:hover {
   text-decoration: underline;
   color: rgb(255, 208, 211);
 }	
 
 .credit-link {
+  text-decoration: none;
   color: rgb(255, 148, 181);
 }	
 
 .credit-link:hover {
   text-decoration: underline;
   color: rgb(255, 178, 211);	
+}
+
+.credit-link-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
 }	
 
 .menu-button {
@@ -144,7 +156,6 @@ body {
   bottom: 0;
   left: 0.5%;
   font-size: 8px;
-  color: rgb(205, 205, 205);
 }		
 
 .title-name {

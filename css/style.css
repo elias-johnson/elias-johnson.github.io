@@ -159,12 +159,12 @@ a:hover {
 
 .about-image {
   position: absolute;
-  top: 130px;
-  left: 150px;
+  top: 115px;
+  left: 155px;
   width: 300px;
   z-index: 1;
   border-radius: 15px;
-}	
+}
 
 .email {
   text-decoration: underline;

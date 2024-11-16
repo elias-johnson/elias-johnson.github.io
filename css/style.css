@@ -58,6 +58,7 @@ a:hover {
   margin: 40px auto;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding-top: 10px;
   color: rgb(82,89,134);
 }

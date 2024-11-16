@@ -20,6 +20,7 @@ body {
 }
 
 .footer-link {
+  text-decoration: none;
   color: rgb(205, 205, 205); 
 }	
 
@@ -42,7 +43,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 50px;
 }	
 
 .menu-button {
@@ -154,7 +155,7 @@ body {
   align-items: center;	
   position: absolute;
   bottom: 0;
-  left: 0.5%;
+  left: 1%;
   font-size: 8px;
 }		
 

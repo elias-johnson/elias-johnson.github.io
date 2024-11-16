@@ -19,9 +19,13 @@ body {
   color: rgb(255, 255, 230)  
 }
 
-.header-link:hover {
+.header-link:hover, .credit-link:hover {
   text-decoration: underline;
   color: rgb(255, 208, 211);
+}	
+
+.credit-link {
+  color: rgb(255, 148, 181);
 }	
 
 .menu-button {

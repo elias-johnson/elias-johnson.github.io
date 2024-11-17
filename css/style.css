@@ -56,7 +56,7 @@ body {
   color: black;
   border: 2px solid white;
   border-radius: 50px;
-  padding: 25px 50px;
+    padding: 30px 60px;
   font-size: 18px;
   cursor: pointer;
   transition: transform 0.3s ease;

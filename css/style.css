@@ -66,6 +66,10 @@ body {
   transform: scale(1.05);
 }	
 
+.menu-button:hover {
+  transform: scale(0.9);
+}
+
 .header-bar {
   position: absolute;
   font-weight: 350;
@@ -230,6 +234,18 @@ body {
 
 .linkedin-icon:hover, .github-icon:hover, .resume-icon:hover {
   transform: scale(1.1);
+}	
+
+.converter-container {
+  width: 20%;
+  margin: 40px auto;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }	
 
 .decimal-to-binary {

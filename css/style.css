@@ -145,6 +145,11 @@ body {
 
 .project-container:hover {
   transform: scale(1.02);
+}
+
+.project-container:active {
+  transition: transform 0.1s ease;
+  transform: scale(0.9);
 }	
 
 .project-title-container {

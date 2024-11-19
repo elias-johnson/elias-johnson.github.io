@@ -27,7 +27,11 @@ body {
 .header-link:hover, .footer-link:hover {
   text-decoration: underline;
   color: rgb(255, 208, 211);
-}	
+}
+
+.header-link:active, .footer-link:active {
+  color: rgb(255, 188, 191);
+}		
 
 .credit-link {
   text-decoration: none;

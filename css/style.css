@@ -201,13 +201,13 @@ body {
 }	
 
 .converter-title-container {
-  margin-top: 10px;
-  font-size: 20px;
+  margin-top: 1.5vh;
+  font-size: 3.2vh;
 }
 
 .converter {
-  margin-top: 20px;
-  font-size: 10px;
+  margin-top: 3vh;
+  font-size: 1.6vh;
 }	
 
 .converter-input {

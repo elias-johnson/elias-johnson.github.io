@@ -149,18 +149,18 @@ body {
 }
 
 .project-container {
-  width: 60%;
-  height: 200px;
-  margin: 35px auto;
-  border-radius: 15px;
-  border:0;
-  padding-right: 10px;
-  padding-left: 10px;
-  align-items: center;
+  width: 54vw;
+  height: 32vh;
+  margin: 5.5vh auto;
+  padding-right: 1vw;
+  padding-left: 1vw;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
+  align-items: center;
   line-height: 2;
   color: rgb(82,89,134);
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 1vw;
   transition: transform 0.5s ease;  
 }
 

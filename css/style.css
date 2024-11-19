@@ -140,13 +140,12 @@ body {
 }
 
 .text-container-body {
-  width: 96%;
-  height: 1240px;
-  padding-top: 40px;
-  padding-left: 15px;
-  padding-right: 15px;
-  align-items: center;
+  width: 52vw;
   justify-content: center;
+  align-items: center;
+  padding-top: 6vh;
+  padding-right: 1vw;
+  padding-left: 1vw;
 }
 
 .project-container {

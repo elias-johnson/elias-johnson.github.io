@@ -277,12 +277,12 @@ body {
 }	
 
 .convert-button:hover {
-  background-color: rgb(255, 158, 161);
+  background-color: rgb(255, 168, 171);
 }
 
 .convert-button:active {
   transition: transform 0.1s ease;
-  transform: scale(1.01);
+  transform: scale(1.03);
 }
 
 #binaryToDecimalResult, #decimalToBinaryResult {

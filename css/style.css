@@ -113,22 +113,22 @@ body {
 }	
 
 .credit-link:hover {
-  text-decoration: underline;
-  color: rgb(255, 178, 211);	
+  color: rgb(255, 178, 211);  
+  text-decoration: underline;	
 }
 
 .text-container {
-  width: 60%;
-  height: 1510px;
-  margin: 35px auto;
-  border-radius: 15px;
-  align-items: center;
+  width: 54vw;
+  height: 228vh;
+  margin: 5.5vh;
   justify-content: center;
+  align-items: center;
   text-align: left;
-  background-color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 3.1vh;
   line-height: 2;
   color: rgb(82,89,134);
+  border-radius: 1vw;
+  background-color: rgb(255, 255, 255);
 }	
 
 .text-container-head {

@@ -190,17 +190,17 @@ body {
 
 .project-title-container {
   font-weight: 400;
-  font-size: 25px; 	
+  font-size: 4vh; 	
 }	
 
 .project-text-container {
   font-weight: 300;
-  font-size: 15px;	
+  font-size: 2.4vh;	
 }	
 
 .project-skills-container {
   font-weight: 300;
-  font-size: 15px;	
+  font-size: 2.4vh;	
 }	
 
 .converter-container {

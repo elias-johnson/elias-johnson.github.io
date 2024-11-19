@@ -265,6 +265,10 @@ body {
   font-size: 10px;
 }	
 
+.converter-input {
+  	
+}	
+
 .convert-button {
   background-color: rgb(255, 148, 151);
   border: 2px rgb(255, 208, 211);

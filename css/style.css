@@ -169,35 +169,35 @@ body {
 }
 
 .project-container:active {
-  transition: transform 0.1s ease;
   transform: scale(0.98);
+  transition: transform 0.1s ease;
 }	
 
 .project-title-container {
-  font-size: 25px; 	
   font-weight: 400;
+  font-size: 25px; 	
 }	
 
 .project-text-container {
-  font-size: 15px;	
   font-weight: 300;
+  font-size: 15px;	
 }	
 
 .project-skills-container {
-  font-size: 15px;	
   font-weight: 300;
+  font-size: 15px;	
 }	
 
 .converter-container {
-  width: 35%;
-  margin: 40px auto;
-  border-radius: 15px;
-  background-color: rgb(255, 255, 255);
-  align-items: center;
+  width: 32vw;
+  margin: 6.5vh auto;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1vw;
 }	
 
 .converter-title-container {

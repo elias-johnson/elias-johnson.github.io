@@ -263,17 +263,17 @@ body {
 	
 .linkedin-icon {
   position: absolute;
-  top: 40px;
-  right: 8px;
-  width: 40px;
+  top: 6.5vh;
+  right: 0.5vw;
+  width: 3vw;
   transition: transform 0.3s ease;
 }	
 
 .github-icon {
   position: absolute;
-  top: 40px;
-  right: 50px;
-  width: 40px;
+  top: 6.5vh;
+  right: 3.5vw;
+  width: 3vw;
   transition: transform 0.3s ease;
 }	
 

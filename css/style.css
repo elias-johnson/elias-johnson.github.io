@@ -234,16 +234,13 @@ body {
   transition: transform 0.3s ease;
 }	
 
-.resume-icon {
-  position: absolute;
-  top: 42px;
-  right: 92px;
-  width: 36px;
-  transition: transform 0.3s ease;
-}		
-
-.linkedin-icon:hover, .github-icon:hover, .resume-icon:hover {
+.linkedin-icon:hover, .github-icon:hover {
   transform: scale(1.1);
+}	
+
+.linkedin-icon:active, .github-icon:active {
+  transition: transform 0.1s ease;
+  transform: scale(0.9);
 }	
 
 .converter-container {

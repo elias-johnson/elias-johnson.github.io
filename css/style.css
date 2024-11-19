@@ -120,7 +120,7 @@ body {
 .text-container {
   width: 54vw;
   height: 228vh;
-  margin: 5.5vh;
+  margin: 5.5vh auto;
   justify-content: center;
   align-items: center;
   text-align: left;

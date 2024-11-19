@@ -266,7 +266,7 @@ body {
 }	
 
 .convert-button {
-  background-color: rgb(255, 208, 211);
+  background-color: rgb(255, 148, 151);
   border: 2px rgb(255, 208, 211);
   color: white;
   border-radius: 5px;
@@ -277,12 +277,12 @@ body {
 }	
 
 .convert-button:hover {
-  background-color: rgb(255, 238, 241);
+  background-color: rgb(255, 158, 161);
 }
 
 .convert-button:active {
   transition: transform 0.1s ease;
-  background-color: rgb(255, 148, 151);
+  transform: scale(1.01);
 }
 
 #binaryToDecimalResult, #decimalToBinaryResult {

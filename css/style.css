@@ -47,11 +47,11 @@ body {
 }	
 
 .button-container {
-  margin: 190px auto;
   display: flex;
   justify-content: space-between;
-  padding-left: 300px;
-  padding-right: 300px;
+  margin: 30vh auto;
+  padding-right: 21vw;
+  padding-left: 21vw;
 }	
 
 .menu-button:hover {

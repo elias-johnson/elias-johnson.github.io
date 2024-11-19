@@ -64,9 +64,9 @@ body {
 }
 
 .header-link {
-  text-decoration: none;
-  margin: 0 10px;
-  color: rgb(255, 255, 230)  
+  margin: 0vw 0.75vw;
+  color: rgb(255, 255, 230);
+  text-decoration: none;  
 }
 
 .footer-link {

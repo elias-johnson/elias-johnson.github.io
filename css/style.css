@@ -59,8 +59,8 @@ body {
 }	
 
 .menu-button:active {
-  transition: transform 0.1s ease;
   transform: scale(0.95);
+  transition: transform 0.1s ease;
 }
 
 .header-link {
@@ -70,13 +70,13 @@ body {
 }
 
 .footer-link {
-  text-decoration: none;
-  color: rgb(205, 205, 205); 
+  color: rgb(205, 205, 205);
+  text-decoration: none; 
 }	
 
 .header-link:hover, .footer-link:hover {
-  text-decoration: underline;
   color: rgb(255, 208, 211);
+  text-decoration: underline;
 }
 
 .header-link:active, .footer-link:active {
@@ -96,20 +96,20 @@ body {
 }		
 
 .credit-link-container {
-  width: 20%;
-  margin: 40px auto;
-  border-radius: 15px;
-  background-color: rgb(255, 255, 255);
-  align-items: center;
+  width: 20vw;
   justify-content: center;
+  align-items: center;
+  margin: 10vh auto;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1vw;
 }	
 
 .credit-link {
-  text-decoration: none;
   color: rgb(255, 148, 181);
+  text-decoration: none;
 }	
 
 .credit-link:hover {

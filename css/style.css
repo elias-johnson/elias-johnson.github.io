@@ -270,6 +270,6 @@ body {
 
 #binaryToDecimalResult, #decimalToBinaryResult {
   min-height: 20px;
-  font-size: 10px;
+  font-size: 15px;
   opacity: 0;
 }

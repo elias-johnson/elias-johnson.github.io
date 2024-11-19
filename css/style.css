@@ -216,13 +216,12 @@ body {
 }
 
 .convert-button {
-  background-color: rgb(255, 148, 151);
-  border: 2px rgb(255, 208, 211);
+  padding: 0.4vw 0.8vw;
+  border: 1vw;
+  font-size: 2.4vh;
   color: white;
-  border-radius: 5px;
-  padding: 5px 10px;
-  font-size: 15px;
-  cursor: pointer;
+  background-color: rgb(255, 148, 151);
+  border-radius: 0.4vw;
   transition: transform 0.3s ease;
 }	
 
@@ -231,8 +230,8 @@ body {
 }
 
 .convert-button:active {
+  transform: scale(1.03);  
   transition: transform 0.1s ease;
-  transform: scale(1.03);
 }
 
 .title-name {

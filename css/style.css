@@ -68,7 +68,7 @@ body {
 
 .menu-button:active {
   transition: transform 0.1s ease;
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
 
 .header-bar {

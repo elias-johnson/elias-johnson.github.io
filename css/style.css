@@ -132,11 +132,11 @@ body {
 }	
 
 .text-container-head {
-  width: 78%;
-  height: 200px;
-  align-items: center;
+  width: 43vw;
+  height: 32vh;
   justify-content: center;
-  padding-left: 150px;
+  align-items: center;
+  padding-left: 11.2vw;
 }
 
 .text-container-body {

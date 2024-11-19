@@ -149,7 +149,7 @@ body {
 
 .project-container:active {
   transition: transform 0.1s ease;
-  transform: scale(0.97);
+  transform: scale(0.98);
 }	
 
 .project-title-container {

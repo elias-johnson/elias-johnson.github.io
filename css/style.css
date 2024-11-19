@@ -133,7 +133,6 @@ body {
 
 .text-container {
   width: 54vw;
-  height: 228vh;
   margin: 5.5vh auto;
   justify-content: center;
   align-items: center;
@@ -155,7 +154,6 @@ body {
 
 .text-container-body {
   width: 52vw;
-  height: 200vh;
   justify-content: center;
   align-items: center;
   padding-top: 6vh;

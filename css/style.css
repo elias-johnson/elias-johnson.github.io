@@ -255,9 +255,17 @@ body {
   border-radius: 1vw;
 }
 
-.email {
+.inline-link {
   color: rgb(255, 148, 181);	
+  text-decoration: none;
+}	
+
+.inline-link:hover {
   text-decoration: underline;
+}
+
+.inline-link:active {
+  color: rgb(255, 128, 161);
 }	
 	
 .linkedin-icon {

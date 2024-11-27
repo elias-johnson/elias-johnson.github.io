@@ -20,7 +20,8 @@ body {
   display: flex;	
   justify-content: center;
   align-items: center;
-  font-size: 2.4vh;	  
+  font-size: 2.4vh;	
+  font-size: 2.4vw;
   font-weight: 350;
   color: rgb(255, 255, 230);
   background-color: rgba(0, 0, 0, 0.40);
@@ -41,12 +42,14 @@ body {
   text-align: center;
   font-weight: 200;
   font-size: 11vh;
+  font-size: 11vw;
 }
 
 .title-desc {
   text-align: center;
   font-weight: 300;
   font-size: 2.4vh;	
+  font-size: 2.4vw;
   margin: 2.5vh;
 }	
 
@@ -137,7 +140,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: left;
-  font-size: 1.2em;
+  font-size: 1.2vh;
+  font-size: 1.2vw;
   line-height: 2;
   color: rgb(82,89,134);
   border-radius: 1vw;

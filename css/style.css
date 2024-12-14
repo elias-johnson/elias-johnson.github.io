@@ -23,7 +23,7 @@ body {
   font-size: 2.4vh;	
   font-weight: 350;
   color: rgb(255, 255, 230);
-  background-color: rgba(0, 0, 0, 0.40);
+  background-color: rgba(0, 0, 0, 0.30);
 }	
 
 .main-container {
@@ -92,7 +92,6 @@ body {
 
 .header-link:hover, .footer-link:hover {
   color: rgb(255, 208, 211);
-  text-decoration: underline;
 }
 
 .header-link:active, .footer-link:active {

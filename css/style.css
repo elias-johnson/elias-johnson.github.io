@@ -40,15 +40,13 @@ body {
 .title-name {
   text-align: center;
   font-weight: 200;
-  font-size: 5vh;
-  font-size: 5vw;
+  font-size: 436%;
 }
 
 .title-desc {
   text-align: center;
   font-weight: 300;
-  font-size: 1vh;	
-  font-size: 1vw;
+  font-size: 87%
   margin: 2.5vh;
 }	
 

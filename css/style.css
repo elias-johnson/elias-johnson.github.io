@@ -38,7 +38,6 @@ body {
 }
 
 .title-name {
-  display: flex;
   justify-content: center;
   text-align: center;
   font-weight: 200;
@@ -126,13 +125,11 @@ body {
 }	
 
 .credit-link {
-  color: rgb(255, 148, 181);
-  text-decoration: none;
+  color: rgb(255, 178, 211);  
 }	
 
 .credit-link:hover {
-  color: rgb(255, 178, 211);  
-  text-decoration: underline;	
+  color: rgb(255, 148, 181);	
 }
 
 .text-container {

@@ -54,7 +54,7 @@ body {
   padding: 1.8vw 3.6vw;
   border: 0.2vw solid white;
   border-radius: 10vw;
-  font-size: 1.3vw;
+  font-size: 100%;
   color: black;
   background-color: white;
   transition: transform 0.3s ease;

@@ -70,6 +70,7 @@ body {
   margin: 15% auto;
   padding-right: 23.5%;
   padding-left: 23.5%;
+  gap: 5%;
 }	
 
 .menu-button:hover {
@@ -88,6 +89,7 @@ body {
 }
 
 .footer-link {
+  font-size: 50%;
   color: rgb(205, 205, 205);
   text-decoration: none; 
 }	

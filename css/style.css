@@ -38,9 +38,13 @@ body {
 }
 
 .title-name {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-weight: 200;
   font-size: 436%;
+  margin-top: 8vh;
+  color: rgb(82,89,134);
 }
 
 .title-desc {
@@ -48,7 +52,8 @@ body {
   font-weight: 300;
   font-size: 87%;
   margin: 2.5vh;
-}	
+  color: rgb(82,89,134);
+}
 
 .menu-button {
   padding: 1.8vw 3.6vw;

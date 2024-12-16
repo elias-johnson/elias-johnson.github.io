@@ -63,7 +63,7 @@ body {
 .button-container {
   display: flex;
   justify-content: space-between;
-  margin: 30vh auto;
+  margin: 15% auto;
   padding-right: 21vw;
   padding-left: 21vw;
 }	

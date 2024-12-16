@@ -64,8 +64,8 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 15% auto;
-  padding-right: 21vw;
-  padding-left: 21vw;
+  padding-right: 23.5%;
+  padding-left: 23.5%;
 }	
 
 .menu-button:hover {

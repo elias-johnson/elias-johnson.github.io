@@ -54,6 +54,15 @@ body {
   color: rgb(82,89,134);
 }
 
+.menu-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 15% auto;
+  padding-right: 23.5%;
+  padding-left: 23.5%;
+  gap: 10%;
+}
+
 .menu-button {
   padding: 1.8vw 3.6vw;
   border: 0.2vw solid white;
@@ -62,16 +71,7 @@ body {
   color: black;
   background-color: white;
   transition: transform 0.3s ease;
-}	
-
-.button-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 15% auto;
-  padding-right: 23.5%;
-  padding-left: 23.5%;
-  gap: 5%;
-}	
+}		
 
 .menu-button:hover {
   transform: scale(1.05);

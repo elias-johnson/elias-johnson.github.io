@@ -65,7 +65,7 @@ body {
 .menu-button-container {
   display: flex;
   justify-content: center;
-  margin: 15% auto;
+  margin-top: 15%;
   padding-right: 23.5%;
   padding-left: 23.5%;
   gap: 14%;

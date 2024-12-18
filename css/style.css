@@ -24,6 +24,12 @@ body {
   font-weight: 350;
   color: rgb(255, 255, 230);
   background-color: rgba(0, 0, 0, 0.30);
+}
+
+.header-link {
+  margin: 0vw 0.75vw;
+  color: rgb(255, 255, 230);
+  text-decoration: none;  
 }	
 
 .main-container {
@@ -38,6 +44,7 @@ body {
 }
 
 .title-name {
+  /* Position absolute? */
   justify-content: center;
   text-align: center;
   font-weight: 200;
@@ -47,6 +54,7 @@ body {
 }
 
 .title-desc {
+  /* Position absolute? */
   text-align: center;
   font-weight: 300;
   font-size: 87%;
@@ -60,7 +68,7 @@ body {
   margin: 15% auto;
   padding-right: 23.5%;
   padding-left: 23.5%;
-  gap: 10%;
+  gap: 14%;
 }
 
 .menu-button {
@@ -82,13 +90,9 @@ body {
   transition: transform 0.1s ease;
 }
 
-.header-link {
-  margin: 0vw 0.75vw;
-  color: rgb(255, 255, 230);
-  text-decoration: none;  
-}
-
 .footer-link {
+  position: fixed;
+  bottom: 0;
   font-size: 50%;
   color: rgb(205, 205, 205);
   text-decoration: none; 

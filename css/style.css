@@ -32,19 +32,7 @@ body {
   text-decoration: none;  
 }	
 
-.main-container {
-  width: 90vw;
-  height: 80vh;
-  justify-content: center;
-  align-items: center;
-  margin: 6vh auto;
-  padding-top: 2vh;
-  color: rgb(82,89,134);
-  text-align: center;
-}
-
 .title-name {
-  /* Position absolute? */
   text-align: center;
   font-weight: 200;
   font-size: 436%;
@@ -53,7 +41,6 @@ body {
 }
 
 .title-desc {
-  /* Position absolute? */
   text-align: center;
   font-weight: 300;
   font-size: 87%;

@@ -286,7 +286,8 @@ body {
 }
 
 @media (max-width: 768px) {
-    .menu-button-container {
+    
+	.menu-button-container {
     display: grid;
     justify-content: center;
     margin-top: 15%;
@@ -294,4 +295,8 @@ body {
     padding-left: 23.5%;
     gap: 35%;
     }
+	
+	.menu-button {
+    padding: 5vw 5vh;
+    }	
 }	

@@ -290,6 +290,7 @@ body {
 	.menu-button-container {
     display: grid;
     margin-top: 30%;
+	margin-bottom: 10%;
     gap: 35%;
     }
 	

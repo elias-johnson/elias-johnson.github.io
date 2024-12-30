@@ -284,3 +284,14 @@ body {
   font-size: 2.4vh;
   opacity: 0;
 }
+
+@media (max-width: 768px) {
+    .menu-button-container {
+    display: grid;
+    justify-content: center;
+    margin-top: 15%;
+    padding-right: 23.5%;
+    padding-left: 23.5%;
+    gap: 14%;
+    }
+}	

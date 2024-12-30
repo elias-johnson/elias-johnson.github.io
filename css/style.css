@@ -276,6 +276,22 @@ body {
 .linkedin-icon:active, .github-icon:active {
   transform: scale(0.98);
   transition: transform 0.1s ease;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(241, 241, 241);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(136, 136, 136);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(85, 85, 85);
 }	
 
 #binaryToDecimalResult, #decimalToBinaryResult {
@@ -290,7 +306,6 @@ body {
 	.menu-button-container {
     display: grid;
     margin-top: 30%;
-	margin-bottom: 10%;
     gap: 35%;
     }
 	

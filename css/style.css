@@ -306,12 +306,13 @@ body {
 @media (max-width: 768px) {
     
 	.menu-button-container {
-    display: grid;
-    margin-top: 30%;
-    gap: 35%;
+      display: grid;
+      margin-top: 30%;
+	  margin-bottom: 50%;
+      gap: 35%;
     }
 	
 	.menu-button {
-    padding: 5vw 5vh;
+      padding: 5vw 5vh;
     }	
 }	

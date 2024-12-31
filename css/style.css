@@ -315,4 +315,9 @@ body {
   .menu-button {
     padding: 5vw 5vh;
   }	
+  
+  .footer-link {
+    bottom: 1px;
+    left: 3px;
+  }	
 }	

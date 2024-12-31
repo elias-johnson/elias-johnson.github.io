@@ -317,7 +317,6 @@ body {
   }	
   
   .footer-link {
-    bottom: 1px;
-    left: 3px;
+    bottom: -80px;
   }	
 }	

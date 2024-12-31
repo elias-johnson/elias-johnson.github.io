@@ -79,7 +79,7 @@ body {
 }
 
 .footer-link {
-  position: absolute;
+  position: fixed;
   bottom: 1px;
   left: 3px;
   font-size: 50%;
@@ -314,9 +314,5 @@ body {
 	
   .menu-button {
     padding: 5vw 5vh;
-  }	
-  
-  .footer-link {
-    bottom: -80px;
-  }	
+  }		
 }	

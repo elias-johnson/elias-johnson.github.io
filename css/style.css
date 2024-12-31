@@ -79,7 +79,7 @@ body {
 }
 
 .footer-link {
-  position: fixed;
+  position: absolute;
   bottom: 1px;
   left: 3px;
   font-size: 50%;
@@ -304,15 +304,19 @@ body {
 }
 
 @media (max-width: 768px) {
-    
-	.menu-button-container {
-      display: grid;
-      margin-top: 30%;
-	  margin-bottom: 50%;
-      gap: 35%;
-    }
+
+  .menu-button-container {
+    display: grid;
+    margin-top: 30%;
+	margin-bottom: 50%;
+    gap: 35%;
+  }
 	
-	.menu-button {
-      padding: 5vw 5vh;
-    }	
+  .menu-button {
+    padding: 5vw 5vh;
+  }	
+	
+  .footer-link {
+    bottom: -80px;
+  }
 }	

@@ -62,9 +62,11 @@ body {
   border: 0.2vw solid white;
   border-radius: 10vw;
   font-size: 100%;
+  font-weight: 450;
   color: black;
   background-color: white;
   transition: transform 0.3s ease;
+  color: rgb(82,89,134);
 }		
 
 .menu-button:hover {

@@ -306,6 +306,10 @@ body {
 
 @media (max-width: 768px) {
 
+  .header-link {
+    margin: 0vw 3vw;
+  }
+  
   .menu-button-container {
     display: grid;
     margin-top: 30%;

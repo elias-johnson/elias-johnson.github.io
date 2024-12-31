@@ -287,11 +287,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(173, 140, 140);
+  background: rgb(143, 110, 110);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(143, 110, 110);
+  background: rgb(113, 80, 80);
 }	
 
 #binaryToDecimalResult, #decimalToBinaryResult {

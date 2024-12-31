@@ -184,7 +184,8 @@ body {
 
 .project-skills-container {
   font-weight: 300;
-  font-size: 2.4vh;	
+  font-size: 2.4vh;
+  color: rgb(82,89,134);
 }	
 
 .converter-container {

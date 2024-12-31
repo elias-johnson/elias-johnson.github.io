@@ -172,14 +172,13 @@ body {
 
 .project-title-container {
   font-weight: 400;
-  font-size: 1.8vh;
-  font-size: 1.8vw;
-  color: rgb(143, 110, 110);
+  font-size: 185%;
+  color: rgb(103, 70, 70);
 }	
 
 .project-text-container {
   font-weight: 300;
-  font-size: 2.4vh;	
+  font-size: 115%;	
   color: rgb(82,89,134);
 }	
 

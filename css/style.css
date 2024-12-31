@@ -23,7 +23,7 @@ body {
   font-size: 2.4vh;	
   font-weight: 350;
   color: rgb(255, 255, 230);
-  background-color: rgba(0, 0, 0, 0.30);
+  background-color: rgb(143, 110, 110);
 }
 
 .header-link {
@@ -287,11 +287,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(143, 110, 110);
+  background: rgb(173, 140, 140);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(113, 80, 80);
+  background: rgb(193, 160, 160);
 }	
 
 #binaryToDecimalResult, #decimalToBinaryResult {

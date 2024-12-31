@@ -314,5 +314,9 @@ body {
 	
   .menu-button {
     padding: 5vw 5vh;
-  }		
+  }	
+
+  .footer-link {
+    font-size: 30%;
+  }	  
 }	

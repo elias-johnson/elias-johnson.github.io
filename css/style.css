@@ -133,10 +133,9 @@ body {
 
 .about-image {
   position: absolute;
-  top: 18.5vh;
-  left: 11.2vw;
-  width: 21.5vw;
-  z-index: 1;
+  top: 8vh;
+  left: 1vw;
+  width: 18vw;
   border-radius: 1vw;
 }
 

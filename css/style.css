@@ -96,7 +96,7 @@ body {
 }	
 
 .credit-link-container {
-  width: 20vw;
+  width: 25%;
   justify-content: center;
   align-items: center;
   margin: 10vh auto;
@@ -150,7 +150,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 54vw;
-  height: 32vh;
   margin: 5.5vh auto;
   padding-right: 1vw;
   padding-left: 1vw;
@@ -329,4 +328,12 @@ body {
   .credit-link-container {
     width: 70%;
   }  
+  
+  .project-container {
+    width: 54vw;
+  }
+  
+  .project-title-container {
+    font-size: 150%;
+  }
 }	

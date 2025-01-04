@@ -109,6 +109,7 @@ body {
 
 .credit-link {
   color: rgb(255, 178, 211);  
+  text-decoration: none;
 }	
 
 .credit-link:hover {

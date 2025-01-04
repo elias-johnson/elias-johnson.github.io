@@ -32,7 +32,7 @@ body {
   text-decoration: none;  
 }	
 
-.title-name {
+.title-name, .title-name-menu {
   text-align: center;
   font-weight: 200;
   font-size: 436%;
@@ -40,7 +40,7 @@ body {
   color: rgb(82,89,134);
 }
 
-.title-desc {
+.title-desc, .title-name-menu {
   text-align: center;
   font-weight: 300;
   font-size: 87%;
@@ -310,12 +310,8 @@ body {
     margin: 0vw 3vw;
   }
   
-  .title-name {
+  .title-name-menu, .title-desc-menu {
     margin-top: 2vh;
-  }
-
-  .title-desc {
-    margin: 2vh;
   }
   
   .menu-button-container {

@@ -323,5 +323,9 @@ body {
 
   .footer-link {
     font-size: 30%;
-  }	  
+  }	
+
+  .credit-link-container {
+    width: 70%;
+  }  
 }	

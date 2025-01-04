@@ -327,10 +327,12 @@ body {
 
   .credit-link-container {
     width: 70%;
+	border-radius: 5vw;
   }  
   
   .project-container {
-    width: 54vw;
+    width: 80%;
+	border-radius: 5vw;
   }
   
   .project-title-container {

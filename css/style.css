@@ -312,9 +312,9 @@ body {
   
   .menu-button-container {
     display: grid;
-    margin-top: 30%;
-	margin-bottom: 50%;
-    gap: 35%;
+    margin-top: 15%;
+	margin-bottom: 25%;
+    gap: 25%;
   }
 	
   .menu-button {

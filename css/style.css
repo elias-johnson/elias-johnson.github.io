@@ -121,6 +121,8 @@ body {
   margin: 5.5vh auto;
   justify-content: center;
   align-items: center;
+  padding-right: 1vw;
+  padding-left: 1vw;
   text-align: left;
   font-size: 1.2vh;
   font-size: 1.2vw;
@@ -136,14 +138,6 @@ body {
   justify-content: center;
   align-items: center;
   padding-left: 11.2vw;
-}
-
-.text-container-body {
-  width: 52vw;
-  justify-content: center;
-  align-items: center;
-  padding-right: 1vw;
-  padding-left: 1vw;
 }
 
 .project-container {

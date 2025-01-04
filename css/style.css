@@ -132,12 +132,51 @@ body {
   background-color: rgb(255, 255, 255);
 }	
 
-.text-container-head {
-  width: 43vw;
-  height: 38vh;
-  justify-content: center;
-  align-items: center;
-  padding-left: 11.2vw;
+.about-image {
+  position: absolute;
+  top: 18.5vh;
+  left: 11.2vw;
+  width: 21.5vw;
+  z-index: 1;
+  border-radius: 1vw;
+}
+
+.inline-link {
+  color: rgb(255, 148, 181);	
+  text-decoration: none;
+}	
+
+.inline-link:hover {
+  text-decoration: underline;
+}
+
+.inline-link:active {
+  color: rgb(255, 108, 141);
+}	
+	
+.linkedin-icon {
+  position: absolute;
+  top: 6.5vh;
+  right: 0.5vw;
+  width: 3vw;
+  transition: transform 0.3s ease;
+}	
+
+.github-icon {
+  position: absolute;
+  top: 6.5vh;
+  right: 3.5vw;
+  width: 3vw;
+  transition: transform 0.3s ease;
+}	
+
+.linkedin-icon:hover, .github-icon:hover {
+  transform: scale(1.1);
+}	
+
+.linkedin-icon:active, .github-icon:active {
+  transform: scale(0.98);
+  transition: transform 0.1s ease;
 }
 
 .project-container {
@@ -225,53 +264,6 @@ body {
 
 .convert-button:active {
   transform: scale(1.03);  
-  transition: transform 0.1s ease;
-}
-
-.about-image {
-  position: absolute;
-  top: 18.5vh;
-  left: 11.2vw;
-  width: 21.5vw;
-  z-index: 1;
-  border-radius: 1vw;
-}
-
-.inline-link {
-  color: rgb(255, 148, 181);	
-  text-decoration: none;
-}	
-
-.inline-link:hover {
-  text-decoration: underline;
-}
-
-.inline-link:active {
-  color: rgb(255, 108, 141);
-}	
-	
-.linkedin-icon {
-  position: absolute;
-  top: 6.5vh;
-  right: 0.5vw;
-  width: 3vw;
-  transition: transform 0.3s ease;
-}	
-
-.github-icon {
-  position: absolute;
-  top: 6.5vh;
-  right: 3.5vw;
-  width: 3vw;
-  transition: transform 0.3s ease;
-}	
-
-.linkedin-icon:hover, .github-icon:hover {
-  transform: scale(1.1);
-}	
-
-.linkedin-icon:active, .github-icon:active {
-  transform: scale(0.98);
   transition: transform 0.1s ease;
 }
 

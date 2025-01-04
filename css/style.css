@@ -310,11 +310,19 @@ body {
     margin: 0vw 3vw;
   }
   
+  .title-name {
+    margin-top: 2vh;
+  }
+
+  .title-desc {
+    margin: 2vh;
+  }
+  
   .menu-button-container {
     display: grid;
-    margin-top: 15%;
-	margin-bottom: 25%;
-    gap: 25%;
+    margin-top: 20%;
+	margin-bottom: 30%;
+    gap: 30%;
   }
 	
   .menu-button {

@@ -318,10 +318,10 @@ body {
   }
 
   .about-image {
-    display: block;
+    position: relative;
+	display: block;
 	margin: 0 auto;
     width: 40%;
-    border-radius: 3vw;
   }
   
   .text-container {

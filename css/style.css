@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center bottom;
 }
 
 .header-bar {
@@ -136,7 +136,7 @@ body {
   top: 8%;
   left: 1%;
   width: 21%;
-  border-radius: 1vw;
+  border-radius: 100%;
 }
 
 .inline-link {

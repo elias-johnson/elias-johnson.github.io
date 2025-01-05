@@ -317,6 +317,13 @@ body {
 	border-radius: 5vw;
   }
 
+  .about-image {
+    display: block;
+	margin: 0 auto;
+    width: 40%;
+    border-radius: 3vw;
+  }
+  
   .text-container {
     width: 80%;
     padding-right: 3%;

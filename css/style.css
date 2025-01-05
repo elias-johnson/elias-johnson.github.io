@@ -315,6 +315,15 @@ body {
   .credit-link-container {
     width: 70%;
 	border-radius: 5vw;
+  }
+
+  .text-container {
+    width: 70%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 0%;
+    line-height: 1.75;
+    border-radius: 3vw;
   }  
   
   .project-container {

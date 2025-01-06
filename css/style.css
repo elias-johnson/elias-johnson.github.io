@@ -334,15 +334,14 @@ body {
   }
   
   .linkedin-icon {
-    position: absolute;
-	width: 7%;
+    position: static;
+	width: 10%;
     transition: transform 0.3s ease;
   }	
 
   .github-icon {
-    position: absolute;
-	width: 7%;
-	right: 7%;
+    position: static;
+	width: 10%;
     transition: transform 0.3s ease;
   }
   

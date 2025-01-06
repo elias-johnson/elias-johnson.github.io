@@ -325,18 +325,18 @@ body {
   }
   
   .linkedin-icon {
-    position: absolute;
-    top: 6.5vh;
-    right: 0.5vw;
-    width: 3vw;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+	width: 3%;
     transition: transform 0.3s ease;
   }	
 
   .github-icon {
-    position: absolute;
-    top: 6.5vh;
-    right: 3.5vw;
-    width: 3vw;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+	width: 3%;
     transition: transform 0.3s ease;
   }
   

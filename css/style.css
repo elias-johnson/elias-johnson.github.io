@@ -139,19 +139,6 @@ body {
   border-radius: 100%;
 }
 
-.inline-link {
-  color: rgb(255, 148, 181);	
-  text-decoration: none;
-}	
-
-.inline-link:hover {
-  text-decoration: underline;
-}
-
-.inline-link:active {
-  color: rgb(255, 108, 141);
-}	
-	
 .linkedin-icon {
   position: absolute;
   top: 6.5vh;
@@ -166,6 +153,19 @@ body {
   right: 3.5vw;
   width: 3vw;
   transition: transform 0.3s ease;
+}	
+
+.inline-link {
+  color: rgb(255, 148, 181);	
+  text-decoration: none;
+}	
+
+.inline-link:hover {
+  text-decoration: underline;
+}
+
+.inline-link:active {
+  color: rgb(255, 108, 141);
 }	
 
 .linkedin-icon:hover, .github-icon:hover {
@@ -300,7 +300,7 @@ body {
   .menu-button-container {
     display: grid;
     margin-top: 20%;
-	margin-bottom: 30%;
+    margin-bottom: 30%;
     gap: 30%;
   }
 	
@@ -314,19 +314,35 @@ body {
 
   .credit-link-container {
     width: 70%;
-	border-radius: 5vw;
+    border-radius: 5vw;
   }
 
   .about-image {
     position: relative;
-	display: block;
-	margin: 0 auto;
+    display: block;
+    margin: 0 auto;
     width: 50%;
+  }
+  
+  .linkedin-icon {
+    position: absolute;
+    top: 6.5vh;
+    right: 0.5vw;
+    width: 3vw;
+    transition: transform 0.3s ease;
+  }	
+
+  .github-icon {
+    position: absolute;
+    top: 6.5vh;
+    right: 3.5vw;
+    width: 3vw;
+    transition: transform 0.3s ease;
   }
   
   .text-container {
     width: 80%;
-	text-align: center;
+    text-align: center;
     padding-right: 3%;
     padding-left: 3%;
     padding-top: 0%;
@@ -336,7 +352,7 @@ body {
   
   .project-container {
     width: 80%;
-	border-radius: 5vw;
+    border-radius: 5vw;
   }
   
   .project-title-container {

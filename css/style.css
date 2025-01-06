@@ -333,18 +333,15 @@ body {
   }
   
   .linkedin-icon {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-	width: 3%;
+    position: absolute;
+	width: 7%;
     transition: transform 0.3s ease;
   }	
 
   .github-icon {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-	width: 3%;
+    position: absolute;
+	width: 7%;
+	right: 7%;
     transition: transform 0.3s ease;
   }
   

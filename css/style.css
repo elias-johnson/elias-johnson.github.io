@@ -316,8 +316,16 @@ body {
     width: 70%;
     border-radius: 5vw;
   }
-
-  .about-image {
+  
+  .text-container {
+    width: 80%;
+    padding-right: 3%;
+    padding-left: 3%;
+    line-height: 1.75;
+    border-radius: 3vw;
+  }  
+  
+   .about-image {
     position: relative;
     display: block;
     margin: 0 auto;
@@ -339,15 +347,6 @@ body {
 	width: 3%;
     transition: transform 0.3s ease;
   }
-  
-  .text-container {
-    width: 80%;
-    padding-right: 3%;
-    padding-left: 3%;
-    padding-top: 0%;
-    line-height: 1.75;
-    border-radius: 3vw;
-  }  
   
   .project-container {
     width: 80%;

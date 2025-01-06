@@ -335,14 +335,12 @@ body {
   
   .linkedin-icon {
     position: static;
-	width: 10%;
-    transition: transform 0.3s ease;
+	width: 12%;
   }	
 
   .github-icon {
     position: static;
-	width: 10%;
-    transition: transform 0.3s ease;
+	width: 12%;
   }
   
   .project-container {

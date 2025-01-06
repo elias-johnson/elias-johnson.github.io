@@ -326,6 +326,7 @@ body {
   
   .text-container {
     width: 80%;
+	text-align: center;
     padding-right: 3%;
     padding-left: 3%;
     padding-top: 0%;

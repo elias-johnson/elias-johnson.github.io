@@ -249,7 +249,7 @@ body {
 .convert-button {
   padding: 0.4vw 0.8vw;
   border: 1vw;
-  font-size: 2.4vh;
+  font-size: 150%;
   color: white;
   background-color: rgb(143, 110, 110);
   border-radius: 0.4vw;
@@ -263,6 +263,13 @@ body {
 .convert-button:active {
   transform: scale(1.03);  
   transition: transform 0.1s ease;
+}
+
+#binaryToDecimalResult, #decimalToBinaryResult {
+  margin-top: 3vh;
+  margin-bottom: 6.5vh;
+  font-size: 2.4vh;
+  opacity: 0;
 }
 
 ::-webkit-scrollbar {
@@ -280,13 +287,6 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(193, 160, 160);
 }	
-
-#binaryToDecimalResult, #decimalToBinaryResult {
-  margin-top: 3vh;
-  margin-bottom: 6.5vh;
-  font-size: 2.4vh;
-  opacity: 0;
-}
 
 @media (max-width: 768px) {
   .header-link {
@@ -356,4 +356,8 @@ body {
     width: 80%;
     border-radius: 3vw;
   }	
+  
+  .convert-button {
+	border-radius: 1vw;  
+  }	  
 }	

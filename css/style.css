@@ -362,6 +362,7 @@ body {
   }
   
   .convert-button {
+	font-size: 155%;
 	border-radius: 1vw;  
   }	  
 }	

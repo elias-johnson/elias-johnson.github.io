@@ -357,6 +357,10 @@ body {
     border-radius: 3vw;
   }	
   
+  .converter-title-container {
+    font-size: 150%;
+  }
+  
   .convert-button {
 	border-radius: 1vw;  
   }	  

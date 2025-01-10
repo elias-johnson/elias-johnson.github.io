@@ -241,7 +241,7 @@ body {
 }	
 
 .converter-input {
-  width: 19.5vw;
+  width: 60%;
   font-size: 2.4vh;
   color: rgb(82, 89, 134);
 }
@@ -249,7 +249,7 @@ body {
 .convert-button {
   padding: 0.4vw 0.8vw;
   border: 1vw;
-  font-size: 150%;
+  font-size: 140%;
   color: white;
   background-color: rgb(143, 110, 110);
   border-radius: 0.4vw;

@@ -1,2 +1,2 @@
 # Personal Website
-I am currently developing a website as a personal project. I am in the process of connecting my domain to this website.
+Welcome to my personal portfolio website! I plan to add my projects here as they come to fruition.

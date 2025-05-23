@@ -323,12 +323,12 @@ button:active {
   .button-container {
     display: grid;
     margin-top: 20%;
-    margin-bottom: 50%;
+    margin-bottom: 100%;
     gap: 30%;
   }
 
   .footer-link {
-    font-size: 70%;
+    font-size: 50%;
   }
 
   .nav-link {

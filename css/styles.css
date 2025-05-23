@@ -1,7 +1,7 @@
 * {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-}	
+}
 
 body {
   margin-left: 0;
@@ -17,10 +17,10 @@ nav {
   top: 0;
   width: 100%;
   height: 5.5vh;
-  display: flex;	
+  display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.4vh;	
+  font-size: 2.4vh;
   font-weight: 350;
   color: rgb(255, 255, 230);
   background-color: rgb(143, 110, 110);
@@ -85,14 +85,14 @@ button:active {
   left: 3px;
   font-size: 60%;
   color: rgb(205, 205, 205);
-  text-decoration: none; 
-}	
+  text-decoration: none;
+}
 
 .nav-link {
   margin: 0vw 0.75vw;
   color: rgb(255, 255, 230);
-  text-decoration: none;  
-}		
+  text-decoration: none;
+}
 
 .nav-link:hover, .footer-link:hover {
   color: rgb(255, 208, 211);
@@ -128,7 +128,7 @@ button:active {
 
 .linkedin-icon:hover, .github-icon:hover {
   transform: scale(1.1);
-}	
+}
 
 .linkedin-icon:active, .github-icon:active {
   transform: scale(0.98);
@@ -149,21 +149,10 @@ button:active {
   background-color: rgb(255, 255, 255);
 }
 
-.language-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.language-container ul {
-  flex: 1;
-  padding-left: 1em;
-  margin: 0;
-}
-
 .inline-link {
-  color: rgb(255, 148, 181);	
+  color: rgb(255, 148, 181);
   text-decoration: none;
-}	
+}
 
 .inline-link:hover {
   text-decoration: underline;
@@ -171,7 +160,12 @@ button:active {
 
 .inline-link:active {
   color: rgb(255, 108, 141);
-}	
+}
+
+.highlight {
+  font-weight: bold;
+  color: #4090ad;
+}
 
 .credit-link-container {
   width: 25%;
@@ -183,15 +177,15 @@ button:active {
   text-align: center;
   background-color: rgb(255, 255, 255);
   border-radius: 1vw;
-}	
+}
 
 .credit-link {
-  color: rgb(255, 178, 211);  
+  color: rgb(255, 178, 211);
   text-decoration: none;
-}	
+}
 
 .credit-link:hover {
-  color: rgb(255, 148, 181);	
+  color: rgb(255, 148, 181);
 }
 
 .project-container {
@@ -206,7 +200,7 @@ button:active {
   background-color: rgb(255, 255, 255);
   border: 0;
   border-radius: 1vw;
-  transition: transform 0.5s ease;  
+  transition: transform 0.5s ease;
 }
 
 .project-container:hover {
@@ -216,25 +210,25 @@ button:active {
 .project-container:active {
   transform: scale(0.98);
   transition: transform 0.1s ease;
-}	
+}
 
 .project-title-container {
   font-weight: 400;
   font-size: 185%;
   color: rgb(103, 70, 70);
-}	
+}
 
 .project-text-container {
   font-weight: 300;
-  font-size: 115%;	
+  font-size: 115%;
   color: rgb(82,89,134);
-}	
+}
 
 .project-skills-container {
   font-weight: 300;
-  font-size: 115%;	
+  font-size: 115%;
   color: rgb(103, 70, 70);
-}	
+}
 
 .converter-container {
   width: 32%;
@@ -245,7 +239,7 @@ button:active {
   background-color: rgb(255, 255, 255);
   border-radius: 1vw;
   color: rgb(82, 89, 134);
-}	
+}
 
 .converter-title-container {
   margin-top: 1.5%;
@@ -255,7 +249,7 @@ button:active {
 .converter {
   margin-top: 3vh;
   font-size: 1.6vh;
-}	
+}
 
 .converter-input {
   width: 60%;
@@ -271,14 +265,14 @@ button:active {
   background-color: rgb(143, 110, 110);
   border-radius: 0.4vw;
   transition: transform 0.3s ease;
-}	
+}
 
 .convert-button:hover {
   background-color: rgb(163, 130, 130);
 }
 
 .convert-button:active {
-  transform: scale(1.03);  
+  transform: scale(1.03);
   transition: transform 0.1s ease;
 }
 
@@ -303,7 +297,7 @@ button:active {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(193, 160, 160);
-}	
+}
 
 @media (max-width: 768px) {
   h1 {
@@ -323,7 +317,7 @@ button:active {
   .button-container {
     display: grid;
     margin-top: 20%;
-    margin-bottom: 100%;
+    margin-bottom: 75%;
     gap: 30%;
   }
 
@@ -345,7 +339,7 @@ button:active {
   .linkedin-icon {
     position: static;
 	  width: 14%;
-  }	
+  }
 
   .github-icon {
     position: static;
@@ -365,27 +359,27 @@ button:active {
     width: 70%;
     border-radius: 5vw;
   }
-  
+
   .project-container {
     width: 90%;
     border-radius: 10vw;
   }
-  
+
   .project-title-container {
     font-size: 150%;
   }
-  
+
   .converter-container {
     width: 80%;
     border-radius: 3vw;
-  }	
-  
+  }
+
   .converter-title-container {
     font-size: 150%;
   }
-  
+
   .convert-button {
 	  font-size: 155%;
-	  border-radius: 1vw;  
+	  border-radius: 1vw;
   }
 }

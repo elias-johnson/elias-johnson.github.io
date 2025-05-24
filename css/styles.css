@@ -46,6 +46,7 @@ h2 {
 h3 {
   font-weight: bold;
   font-size: 100%;
+  margin-bottom: 0;
 }
 
 button {
@@ -150,21 +151,17 @@ button:active {
 }
 
 .inline-link {
-  color: rgb(255, 148, 181);
-  text-decoration: none;
-}
-
-.inline-link:hover {
+  color: #7494db;
   text-decoration: underline;
 }
 
-.inline-link:active {
-  color: rgb(255, 108, 141);
+.inline-link:hover {
+  color: #86abfc;
 }
 
 .highlight {
   font-weight: bold;
-  color: #4090ad;
+  color: #7494db;
 }
 
 .credit-link-container {
@@ -299,7 +296,7 @@ button:active {
   background: rgb(193, 160, 160);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   h1 {
     margin-top: 8vh;
   }

@@ -303,8 +303,8 @@ button:active {
 
   button {
     padding: 5vw 5vh;
-	  border: 3.5vw solid white;
-	  border-radius: 15vw;
+    border: 3.5vw solid white;
+    border-radius: 15vw;
   }
 
   .home-header {
@@ -335,12 +335,12 @@ button:active {
 
   .linkedin-icon {
     position: static;
-	  width: 14%;
+    width: 14%;
   }
 
   .github-icon {
     position: static;
-	  width: 14%;
+    width: 14%;
   }
 
   .text-container {
@@ -376,7 +376,7 @@ button:active {
   }
 
   .convert-button {
-	  font-size: 155%;
-	  border-radius: 1vw;
+    font-size: 155%;
+    border-radius: 1vw;
   }
 }

@@ -164,6 +164,20 @@ button:active {
   color: #7494db;
 }
 
+.project-report {
+  width: 80%;
+  margin: 4% auto;
+  padding: 2%;
+  padding-top: 0.25%;
+  padding-bottom: 0.25%;
+  text-align: left;
+  font-size: 100%;
+  line-height: 2;
+  color: rgb(82,89,134);
+  border-radius: 1vw;
+  background-color: rgb(255, 255, 255);
+}
+
 .credit-link-container {
   width: 25%;
   justify-content: center;
